@@ -1,7 +1,7 @@
 [
     {
         "agentName": "Professor",
-        "serviceId": "deployment_EHU4naxvGffI8VJEBBmV5ABa",
+        "serviceId": "deployment_KNmBm5VWg1HtB6AHXxX0vcyX",
         "questionLists": [
             "What is Kite AI?",
             "What is proof of AI?",
@@ -57,7 +57,7 @@
     },
     {
         "agentName": "Crypto Buddy",
-        "serviceId": "deployment_l3QYj1avTiZz2vH2daFJBGu1",
+        "serviceId": "deployment_xaYs98q4iraSThDSPcuPxZko",
         "questionLists": [
             "Price of bitcoin",
             "Top movers today",
@@ -115,7 +115,7 @@
     },
     {
         "agentName": "Sherlock",
-        "serviceId": "deployment_OX7sn2D0WvxGUGK8CTqsU5VJ",
+        "serviceId": "deployment_15kFpEbiREAocsWpSxbGATAr",
         "questionLists": [
             "What do you think of this transaction? 0x252c02bded9a24426219248c9c1b065b752d3cf8bedf4902ed62245ab950895b",
             "What do you think of this transaction? 0xf6539557381ef5652793a11aa99bc2c7e06297faad207ee454db2d272d6d0b8c",
