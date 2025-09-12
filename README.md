@@ -1,6 +1,6 @@
-# 🚀 Kite AI Automation Bot - CDY Edition
+# 🚀 Kite AI Ozone BOT — CDY Edition
 
-A fully automated Python bot for interacting with Kite AI's incentivized testnet. This bot simplifies your daily Kite AI tasks and boosts your airdrop farming by automating multiple activities across multiple accounts.
+A fully automated Python bot for interacting with the Kite AI Ozone testnet. Designed to streamline onboarding, staking, and daily tasks across multiple wallets with proxy support and 2Captcha integration.
 
 > **Made by Cryptodai3 | Powered by YetiDAO**
 
@@ -8,22 +8,49 @@ A fully automated Python bot for interacting with Kite AI's incentivized testnet
 
 ## 📌 Project Link
 
-🔗 **Kite AI Testnet**: [https://testnet.gokite.ai](https://testnet.gokite.ai/?referralCode=ODMG4EWE)
+🔗 **Kite AI Ozone**: [https://testnet.gokite.ai](https://testnet.gokite.ai)
 
 ---
 
 ## ⚙️ Features
 
-- ✅ Auto Account Login & Info Retrieval  
+- ✅ Auto Get Account Information  
 - 🔁 Proxy Support (Free or Private)  
 - 🔐 Multi-Wallet Support via `accounts.txt`  
-- 💧 Auto Claim KITE Faucet (via 2captcha)  
-- 🤖 Auto Daily Quiz  
-- 💸 Auto Stake & Unstake KITE  
-- 🧠 Auto Interact with AI Agents  
-- 🌉 Random Bridge Transactions  
-- 🔁 Proxy Rotation for Invalid IPs  
+- 💧 Auto Claim Faucets (requires 2Captcha key)  
+- 💸 Auto Deposit KITE Token  
+- 💸 Auto Withdraw Tokens  
+- 🔄 Auto Stake / Unstake KITE Token  
+- 🎁 Auto Claim Stake Rewards  
+- 🧠 Auto Complete Daily Quiz  
+- 🤖 Auto Interact with AI Agents  
+- 🛡️ Auto Create Multisig Wallet  
+- 🔀 Auto Make Random Swap  
+- 🌉 Auto Make Random Bridge  
 - 📈 Stats Tracking for all operations  
+
+---
+
+## 🌍 Proxy Recommendation
+
+For multi-wallet automation, airdrop farming, or bypassing geo-restrictions:
+
+🔗 https://www.nstproxy.com  
+👉 Use code **YETIDAO** for **10% OFF**
+
+- From $0.1/GB  
+- Global coverage  
+- Rotation control  
+- Anti-ban tech  
+
+---
+
+🔐 2Captcha Integration
+This bot uses [2Captcha](https://2captcha.com/)  to solve captchas automatically during faucet claims and other verification steps.
+- Supports reCAPTCHA, image captchas, Cloudflare Turnstile, and more
+- Fast solving speed and high accuracy
+- API-ready for Python, JavaScript, PHP, and other languages
+To use it, simply add your API key to 2captcha_key.txt.
 
 ---
 
@@ -31,23 +58,29 @@ A fully automated Python bot for interacting with Kite AI's incentivized testnet
 
 - Python 3.9+  
 - `pip` installed  
-- 2captcha API Key (optional but needed for faucet)
+- 2Captcha API Key  
 - Base Sepolia ETH  
-- KITE Faucet Tokens
+- KITE Faucet Tokens  
 
 ---
 
 ## 🛠 Installation
 
-1. **Clone Repository**
+### 1. Clone Repository
+
 ```bash
 git clone https://github.com/cryptodai3/Kite-AI-PY-BOT.git
-````
-```bash
 cd Kite-AI-PY-BOT
-````
+```
 
-2. **Install Dependencies**
+### 2. Set Up Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -68,7 +101,7 @@ Put your private keys here (one per line):
 
 ### ✅ `2captcha_key.txt`
 
-Place your 2captcha API key here (one line):
+Place your 2Captcha API key here (one line):
 
 ```
 your_2captcha_api_key
@@ -94,60 +127,59 @@ python bot.py
 
 The bot will prompt you to:
 
-* Choose proxy mode:
-  `1` → Proxyscrape Free Proxy
-  `2` → Private Proxy
-  `3` → No Proxy
-* Choose auto-rotate proxies:
+- Choose proxy mode:  
+  `1` → Private Proxy  
+  `2` → No Proxy  
+- Choose auto-rotate proxies:  
   `y` or `n`
 
 ---
 
-## 🧪 Project Tasks Overview
+## 🧪 Onboarding Checklist
 
-> Complete these steps **before running the bot** to get the most out of the testnet:
+> Complete these steps before running the bot:
 
-1. Register here → [Kite AI Testnet](https://testnet.gokite.ai?referralCode=ODMG4EWE)
-2. Sign in with **EVM Wallet**
-3. Connect all social media
-4. Complete missions & agent tasks
-5. Interact with Kite Agents
-6. Stake/Unstake KITE token
-7. Complete Quizzes
+1. Register at Kite AI Ozone  
+2. Sign in with a new EVM wallet  
+3. Connect all social media  
+4. Complete onboarding tasks  
+5. Stake/Unstake KITE  
+6. Interact with AI agents  
+7. Claim faucet and rewards  
 
 ---
 
 ## 🛠 Troubleshooting
 
-* If installation fails:
+- Check Python version:
 
-  * Check Python version (`python --version`)
-  * Ensure all dependencies match versions in `requirements.txt`
-  * Use:
+```bash
+python --version
+```
 
-    ```bash
-    pip install package_name==version
-    ```
+- If dependencies fail:
 
-* Common Errors:
+```bash
+pip install package_name==version
+```
 
-  * **Invalid proxy format** → Fix your `proxy.txt`
-  * **2captcha not working** → Confirm API key is valid
-  * **Wallet errors** → Check if private keys are valid
+- Common Errors:
+
+  - **Invalid proxy format** → Fix your `proxy.txt`  
+  - **2Captcha not working** → Confirm API key is valid  
+  - **Wallet errors** → Check if private keys are valid  
 
 ---
 
-## ☕ Donate & Support
+## ☕ Buy Me a Coffee
 
-* **EVM:** `0x3b94Ff1611773171E06047C0041099CccCFC609F`
+- EVM: `0x3b94Ff1611773171E06047C0041099CccCFC609F`
 
 ---
 
 ## 🌐 Community
 
-Join the movement and stay updated:
-
-📢 Telegram Channel: [CryptoDai3](https://t.me/cryptodai3)
+📢 Telegram Channel: [CryptoDai3](https://t.me/cryptodai3)  
 🌍 By: [YetiDAO](https://t.me/yetidao)
 
 ---
@@ -158,4 +190,7 @@ This project is licensed under the MIT License.
 
 ---
 
-> ⭐️ **If this helped you, drop a star and share the repo! Let's grow together.**
+> ⭐️ If this helped you, drop a star and share the repo! Let’s grow together.
+
+---
+
